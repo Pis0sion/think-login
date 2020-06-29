@@ -1,0 +1,29 @@
+{
+    "name": "pis0sion/think-login",
+    "description": "thinkphp6 login action plugin",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "topthink/framework": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pis0sion",
+            "email": "zihuang2010@126.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Pis0sion\\src\\": "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Pis0sion\\src\\Service"
+            ]
+        }
+    }
+}
